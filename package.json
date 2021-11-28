@@ -2,7 +2,7 @@
   "name": "exercisescriptjson",
   "version": "1.0.0",
   "description": "Read json files and modified object",
-  "main": "index.js",
+  "main": "exercisejsom-cli.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
