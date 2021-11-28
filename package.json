@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Read json files and modified object",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +14,7 @@
   "author": "Daniela Méndez Gándara",
   "license": "ISC",
   "bin": {
-    "exercisetwo":"./exercisejson-cli.js"
+    "exercisetwo":"./exercisejson-cli.mjs"
   },
   "bugs": {
     "url": "https://github.com/danielamendezgandara/exerciseScriptJSON/issues"

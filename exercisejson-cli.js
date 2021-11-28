@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
-const fs=require('fs')
+import { readFileSync } from 'fs';
 
-let values = JSON.parse(fs.readFileSync('values.JSON'));
-let json = JSON.parse(fs.readFileSync('data.JSON'));
+let values = JSON.parse(readFileSync('values.JSON'));
+let json = JSON.parse(readFileSync('data.JSON'));
 let result = {...json.data}
 
 for (const key of Object.keys(json.data)) {
